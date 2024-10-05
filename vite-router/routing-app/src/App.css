@@ -1,0 +1,647 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Import the google web fonts you want to use */
+
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
+
+/* Card Based Layout - Base styles */
+
+body {
+  background: hsl(0, 0%, 90%);
+}
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: 'Comfortaa', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  font-family: 'Patua One', serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #007489;
+}
+
+p {
+  margin-bottom: 1.5em;
+  color: #898989;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0 1.5em;
+}
+
+address {
+  margin: 0 0 1.5em;
+}
+
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+  font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr,
+acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+mark,
+ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+
+sup,
+sub {
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+sub {
+  top: .5ex;
+}
+
+small {
+  font-size: 75%;
+}
+
+big {
+  font-size: 125%;
+}
+
+.masthead {
+  background-color: #005b75;
+}
+
+.masthead p,
+.masthead p a {
+  color: white;
+}
+
+.site-title {
+  color: white;
+  text-align: center;
+}
+
+img {
+  display: block;
+  border: 0;
+  width: 80%;
+  max-width: 200px;
+  height: auto;
+  padding-left: 50px;
+  padding-top: 5%;
+}
+
+
+.card {
+  background: white;
+  margin-bottom: 2em;
+
+
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+}
+
+.card a:hover {
+  box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+}
+
+.card-content {
+  padding: 1.4em;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  margin-bottom: .5em;
+  font-weight: bold;
+}
+
+.card-content p {
+  font-size: 80%;
+}
+
+/* Flexbox stuff */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex: 0 1 24%;
+}
+
+/* Import the google web fonts you want to use */
+
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
+
+/* Card Based Layout - Base styles */
+
+body {
+  background: hsl(0, 0%, 90%);
+}
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: 'Comfortaa', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  font-family: 'Patua One', serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #007489;
+}
+
+p {
+  margin-bottom: 1.5em;
+  color: #898989;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0 1.5em;
+}
+
+address {
+  margin: 0 0 1.5em;
+}
+
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+  font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr,
+acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+mark,
+ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+
+sup,
+sub {
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+sub {
+  top: .5ex;
+}
+
+small {
+  font-size: 75%;
+}
+
+big {
+  font-size: 125%;
+}
+
+.masthead {
+  background-color: #005b75;
+}
+
+.masthead p,
+.masthead p a {
+  color: white;
+}
+
+.site-title {
+  color: white;
+}
+
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+}
+
+
+.card {
+  background: white;
+  margin-bottom: 2em;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+}
+
+.card a:hover {
+  box-shadow: 3px 3px 8px hsl(0, 57%, 73%);
+}
+
+.card-content {
+  padding: 1.4em;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  margin-bottom: .5em;
+  font-weight: bold;
+}
+
+.card-content p {
+  font-size: 80%;
+}
+
+/* Flexbox stuff */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* 
+.card {
+  flex: 0 1 24%;
+} */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin: 20px 0;
+
+}
+
+.pagination button {
+  padding: 10px 20px;
+  background-color: #008912;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.pagination p {
+  margin: 0;
+
+}
+
+.cards-container {
+  display: flex;
+
+  gap: 22px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+/* Styling for the individual cards */
+.card {
+  flex: 0 1 30%;
+
+  /* flex: 0 1 24%; */
+  /* This will allow each card to take up 30% of the row width */
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  /* Adjust to control image size */
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  background-color: #008912;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination p {
+  margin: 0;
+}
+
+.centerView {
+  flex: 1;
+}
+
+/* From Uiverse.io by joe-watson-sbf */
+.flip-card {
+  background-color: transparent;
+  width: 190px;
+  height: 254px;
+  perspective: 1000px;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid coral;
+  border-radius: 1rem;
+}
+
+.flip-card-front {
+  background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
+      rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
+  color: coral;
+}
+
+.flip-card-back {
+  background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
+      bisque 40%, rgb(255, 185, 160) 78%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+nav ul {
+  display: flex;
+  /* Flexbox for horizontal layout */
+  list-style: none;
+  /* Remove bullets from list */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-right: 50px;
+  /* Spacing between links */
+}
+
+nav li:last-child {
+  margin-right: 0;
+  /* Remove margin on the last item */
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* Remove underline from links */
+  color: #360be0;
+  margin: auto;
+  /* Link color (adjust as needed) */
+}
+
+nav h1 {
+  font-size: 1.5rem;
+  /* Adjust font size */
+
+  /* Remove extra space from h1 */
+}
