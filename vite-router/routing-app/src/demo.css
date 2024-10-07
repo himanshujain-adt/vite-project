@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
 
 
 
@@ -180,11 +180,11 @@ img {
 }
 /* Base styles for the cards */
 .card {
-  background: rgb(236, 4, 4);
+  background: white;
   padding: 10px;
   margin-bottom: 1em;
   display: flex;
-  flex-direction: row; /* Keep image on top */
+  flex-direction: column; /* Keep image on top */
   justify-content: center;
   align-items: center;
   border: 1px solid #e0e0e0;
@@ -196,6 +196,9 @@ img {
 }
 
 /* Add hover effect for cards */
+.card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
 
 /* Card image styling */
 .card img {
@@ -209,16 +212,17 @@ img {
 /* Card content styling */
 .card-content {
   display: flex;
-  flex-direction: row; /* Keep title and price vertical */
-  align-items: center; /* Center title and price */
+  justify-content: space-between; /* Align items in a row */
+  align-items: center;
   text-align: left;
-  width: 100%; /* Full width */
+  width: 100%;
 }
 
 
 
- 
 
 
+/* Import the google web fonts you want to use */
 
 
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
